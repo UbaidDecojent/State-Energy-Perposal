@@ -1,0 +1,171 @@
+// Variables
+@import './variables.scss';
+
+/*--------------CSS Grid---------------*/
+@import './vendor/CSS-grid-del.scss';
+
+/*--------------Fonts---------------*/
+@import './fonts/fonts.scss';
+
+/*--------------Commons---------------*/
+@import './commons/common.scss';
+
+html{
+    font-size: 20px;
+    max-width: 100%;
+    overflow-x: hidden;
+    // scroll-behavior: smooth;
+    // @media screen and (min-width: $extra_large) {
+    //     font-size: 31px;
+    // }
+    // @media screen and (max-width: $xxl) {
+    //     font-size: 20px;
+    // }
+    // @media screen and (max-width: $lg) {
+    //     font-size: 18px;
+    // }
+    // @media screen and (max-width: $md) {
+    //     font-size: 16px;
+    // }
+    // cursor: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Avenir';
+    max-width: 100%;
+    // overflow-x: hidden;
+    // color: var(--primary-black);
+    letter-spacing: -0.5px;
+    // &::-webkit-scrollbar{
+    //     display: none;
+    // }
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.h1{
+    font-family: 'Avenir';
+    font-weight: 900;
+    font-size: 2.8rem;
+    line-height: 120%;
+    color: var(--primary-blue-color);
+    letter-spacing: -1%;
+    @media screen and (max-width: $sm) {
+        font-size: 2rem;
+        line-height: 130%;
+    }
+    // @media screen and (max-width: $xxl) {
+    //     font-size: 3rem;
+    // }
+    // @media screen and (max-width: $xl) {
+    //     font-size: 2.82rem;
+    // }
+    // @media screen and (max-width: $lg) {
+    //     font-size: 2.4rem;
+    // }
+}
+
+.h2{
+    font-family: 'Avenir';
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 130%;
+    color: var(--primary-blue-color);
+    letter-spacing: 0%;
+    // @media screen and (max-width: $xxl) {
+    //     font-size: 3rem;
+    // }
+    // @media screen and (max-width: $xl) {
+    //     font-size: 2.82rem;
+    // }
+    // @media screen and (max-width: $lg) {
+    //     font-size: 2.4rem;
+    // }
+}
+
+.h3{
+    font-family: 'Avenir';
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 130%;
+    color: var(--primary-blue-color);
+    letter-spacing: 0%;
+    // @media screen and (max-width: $xxl) {
+    //     font-size: 3rem;
+    // }
+    // @media screen and (max-width: $xl) {
+    //     font-size: 2.82rem;
+    // }
+    
+}
+
+.h4{
+    font-family: 'Avenir';
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 120%;
+    color: var(--black-color);
+    letter-spacing: 0%;
+    // @media screen and (max-width: $xxl) {
+    //     font-size: 3rem;
+    // }
+    // @media screen and (max-width: $xl) {
+    //     font-size: 2.82rem;
+    // }
+    // @media screen and (max-width: $lg) {
+    //     font-size: 2.4rem;
+    // }
+    &.large{
+        font-size: 1.4rem;
+    }
+}
+
+.p{
+    font-family: 'Avenir';
+    font-size: 1rem;
+    line-height: 160%;
+    font-weight: 400;
+    color: var(--light-color);
+    margin: 0px;
+}
+
+section{
+    margin: 6rem 0px;
+}
+
+a{
+    // text-decoration: none;
+    font-family: 'Avenir';
+    font-size: .9rem;
+    line-height: 110%;
+    font-weight: 500;
+    color: var(--black-color);
+    @media screen and (max-width: $sm) {
+        font-size: .8rem;
+    }
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/*--------------Sections---------------*/
+@import './sections/hero-section.scss';
+@import './sections/about.scss';
+@import './sections/tabssection.scss';
+@import './sections/productinformation.scss';
+@import './sections/ordersummary.scss';
+@import './sections/gosolar.scss';
+@import './sections/purchasedoors.scss';
+@import './sections/nextsteps.scss';
+@import './sections/footer.scss';

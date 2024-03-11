@@ -1,0 +1,31 @@
+section.purchase-doors {
+    background: var(--light-blue-color);
+    padding-top: 4.8rem;
+    padding-bottom: 6rem;
+    .purchase-doors-row {
+        display: flex;
+        align-items: center;
+    h2.title {
+        font-weight: 700;
+       }
+    }
+    img.purchase-doors-img {
+        transform: translateY(10px);
+    }
+.product-cards-row {
+    row-gap: 32px;
+    .product-card {
+        border: 1px solid var(--light-border2-color);
+        padding: 2rem;
+        border-radius: 16px;
+        background: var( --white-color);
+        .prodcut-card-icon {
+            padding-bottom: 1.2rem;
+        }
+        h4.large {
+            color: var(--primary-blue-color);
+            padding-bottom: 0.8rem;
+           }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.go-solar {
+    .go-solar-row {
+        display: flex;
+        align-items: center;
+
+        h2.title {
+            font-weight: 700;
+            padding-bottom: 0.8rem;
+        }
+
+        h4.pre-title {
+            padding-bottom: 0.4rem;
+        }
+    }
+    img.go-solar-img {
+        transform: translateY(10px);
+    }
+
+    .go-solar-card {
+        border: 1px solid var(--light-border-color);
+        border-radius: 16px;
+        padding: 2rem 2rem 2rem 2rem;
+
+        .card-icon-wrap {
+            padding-bottom: 1.6rem;
+        }
+
+        p.card-text {
+            margin: 0;
+            font-weight: 400;
+            line-height: 140%;
+            font-size: 1rem;
+            color: var(--black-color);
+            height: 2.1rem;
+
+            span.highlight-text {
+                color: var(--primary-blue-color);
+                font-weight: 600;
+            }
+        }
+    }
+
+    .invest-home-wrapper {
+        background: var(--light-blue-color);
+        border-radius: 0.8rem;
+        padding: 2rem;
+        margin-top: 1.6rem;
+
+        .invest-home-title {
+            padding-bottom: 0.4rem;
+        }
+
+        .invest-home-pre-title {
+            padding-bottom: 1.2rem;
+
+            span.highlight-text {
+                color: var(--primary-blue-color);
+                font-weight: 600;
+            }
+        }
+
+        .btn-block {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+        }
+    }
+}

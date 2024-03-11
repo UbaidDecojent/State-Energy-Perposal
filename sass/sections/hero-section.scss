@@ -1,0 +1,199 @@
+.hero-section{
+    margin-top: 0px;
+    position: relative;
+    .container{
+        padding-top: 3.6rem;
+        background-image: url('../assets/images/hero-bg.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        @media screen and (max-width: $md) {
+            padding-top: 3.2rem;
+        }
+
+        .logo{
+            img{
+                @media screen and (max-width: $sm) {
+                    width: 136px;
+                    height: 48px;
+                }
+            }
+        }
+
+        .content-block{
+            margin-top: 3.85rem;
+            @media screen and (max-width: $sm) {
+                margin-top: 3.2rem;
+            }
+            .hero-pretitle-block{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                margin-bottom: 0.9rem;
+                @media screen and (max-width: $sm) {
+                    gap: 10px;
+                }
+                .pretitle{
+                    font-size: .8rem;
+                    line-height: 100%;
+                    color: var(--black-color);
+                    font-family: 'Avenir';
+                    font-weight: 300;
+                    @media screen and (max-width: $sm) {
+                        font-size: .8rem;
+                    }
+                }
+            }
+            .description{
+                margin-top: .55rem;
+                font-size: .8rem;
+                line-height: 100%;
+                font-weight: 400;
+                @media screen and (max-width: $sm) {
+                    font-size: 1rem;
+                    line-height: 160%;
+                }
+            }
+        }
+
+        .image-block{
+            img{
+                max-width: 110%;
+                width: 110%;
+            }
+            .mobile-image{
+                display: none;
+            }
+            @media screen and (max-width: $md) {
+                .web-image{
+                    display: none;
+                }
+                .mobile-image{
+                    display: block;
+                    position: absolute;
+                    bottom: 100px;
+                    right: -120px;
+                    width: 60%;
+                }
+            }
+            @media screen and (max-width: $sm) {
+                .mobile-image{
+                    bottom: 200px;
+                    right: -130px;
+                    width: 65%;
+                }
+            }
+        }
+
+        .download-report-bar{
+            margin-top: 2.4rem;
+            background-color: var(--light-blue-color);
+            padding: 1.2rem 1.6rem;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            @media screen and (max-width: $lg) {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            @media screen and (max-width: $sm) {
+                padding: 1.2rem;
+            }
+            .profile-block{
+                display: flex;
+                align-items: center;
+                gap: 24px;
+                @media screen and (max-width: $sm) {
+                    gap: 16px;
+                    width: 100%;
+                    padding-bottom: 1.2rem;
+                    border-bottom: 1px solid #DCE0E8;
+                }
+                .profile-image{
+                    width: 56px;
+                    height: 56px;
+                    border-radius: 50%;
+                    border: 1px solid var(--primary-blue-color);
+                    background-color: var(--white-color);
+                    overflow: hidden;
+                    @media screen and (max-width: $sm) {
+                        width: 40px;
+                        height: 40px;
+                    }
+                    image{
+                        @media screen and (max-width: $sm) {
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                }
+                .profile-name{
+                    .name{
+                        font-size: .9rem;
+                        line-height: 100%;
+                        color: var(--primary-blue-color);
+                        font-weight: 600;
+                        margin-bottom: .8rem;
+                        @media screen and (max-width: $sm) {
+                            font-size: .8rem;
+                            line-height: 110%;
+                            margin-bottom: .5rem;
+                        }
+                    }
+                    .designation{
+                        font-size: .8rem;
+                        line-height: 100%;
+                        font-weight: 300;
+                        color: var(--black-color);
+                        @media screen and (max-width: $sm) {
+                            font-size: .7rem;
+                            line-height: 110%;
+                        }
+                    }
+                }
+            }
+            .report-download-block{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                padding: 4px 0px;
+                @media screen and (max-width: $lg) {
+                    padding-top: 18px;
+                }
+                @media screen and (max-width: $sm) {
+                    padding-top: 1.2rem;
+                    flex-direction: column-reverse;
+                    align-items: flex-start;
+                    gap: 1.2rem;
+                    padding-bottom: 0px;
+                }
+                .report-time{
+                    padding-right: 12px;
+                    padding-top: 4.5px;
+                    padding-bottom: 4.5px;
+                    border-right: 1px solid var(--black-color);
+                    @media screen and (max-width: $sm) {
+                        padding-right: 0px;
+                        border: none;
+                    }
+                    .report-generation-time{
+                        font-size: .8rem;
+                        line-height: 110%;
+                        font-weight: 400;
+                        color: var(--light-color);
+                    }
+                }
+                .report-download-link{
+                    display: flex;
+                    align-items: center;
+                    padding: 4.5px 0px;
+                    .download-link{
+                        padding-right: 12px;
+                        padding-left: 8px;
+                    }
+                }
+            }
+        }
+
+    }
+}

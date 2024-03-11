@@ -1,0 +1,99 @@
+.order-summary-section{
+    .section-title{
+        margin-bottom: 2.4rem;
+    }
+    .customer-general-information{
+        padding: 1.6rem;
+        border-radius: 16px;
+        border: 1px solid var(--light-border-color);
+        position: sticky;
+        top: 40px;
+        .heading{
+            line-height: 100%;
+            color: var(--primary-blue-color);
+            margin-bottom: 1.6rem;
+        }
+        .customer-info{
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            .lable{
+                font-size: .8rem;
+                font-weight: 500;
+                line-height: 100%;
+                color: #9A9EAA;
+            }
+            .customer-name{
+                font-size: 1.2rem;
+                line-height: 100%;
+                color: var(--black-color);
+                font-weight: 500;
+            }
+            &:not(:last-child){
+                margin-bottom: 1.6rem;
+            }
+        }
+    }
+    .order-details{
+        .title-block{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            margin-bottom: 1.6rem;
+            .text-block{
+                display: flex;
+                flex-direction: column;
+                gap: .6rem;
+                .h3{
+                    line-height: 100%;
+                    color: var(--primary-blue-color);
+                    font-weight: 700;
+                }
+                .p{
+                    line-height: 100%;
+                    font-weight: 400;
+                    color: var(--light-color);
+                }
+            }
+        }
+        .total-estimated-bill{
+            justify-content: flex-start;
+            gap: 24px;
+            .estimate-block{
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                .p{
+                    font-size: .8rem;
+                    color: var(--black-color);
+                    line-height: 140%;
+                    font-weight: 400;
+                }
+            }
+            .estimated-bill-value{
+                color: var(--black-color);
+                line-height: 100%;
+            }
+            .seperator{
+                height: 48px;
+                width: 1px;
+                border-left: 1px solid var(--primary-blue-color);
+            }
+            .total-estimated-price{
+                margin-right: 2rem;
+                .lable{
+                    font-weight: 400;
+                    line-height: 100%;
+                    color: var(--black-color);
+                    margin-bottom: .5rem;
+                }
+                .sub-info{
+                    font-size: .6rem;
+                    line-height: 100%;
+                    color: var(--light-color);
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

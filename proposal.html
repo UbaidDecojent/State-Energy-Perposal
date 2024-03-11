@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description of your website">
+    <meta name="author" content="Your Name">
+    <title>Proposal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="logo">
+                            <img src="./assets/images/State Energy Logo.svg" alt="state energy logo" />
+                        </div>
+                        <div class="content-block">
+                            <div class="hero-pretitle-block">
+                                <img src="./assets/images/spark-icon.svg" alt="state energy spark icon" />
+                                <span class="pretitle">Sustainable Living</span>
+                            </div>
+                            <div class="h1">POWER YOUR<br/> HOME YOUR WAY </div>
+                            <p class="p description">Empower Your Home with Sustainable Energy Solutions & Smart Automation.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="image-block">
+                            <img src="./assets/images/hero-image.png" alt="hero main image" class="web-image"/>
+                            <img src="./assets/images/hero-image-mobile.png" alt="hero main image" class="mobile-image"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="download-report-bar">
+                            <div class="profile-block">
+                                <div class="profile-image">
+                                    <img src="./assets/images/headshot.svg" alt="profile image" />
+                                </div>
+                                <div class="profile-name">
+                                    <p class="p name">Daniel Valiente</p>
+                                    <p class="p designation">10765 SW 141ST LN MIAMI</p>
+                                </div>
+                            </div>
+                            <div class="report-download-block">
+                                <div class="report-time">
+                                    <p class="p report-generation-time">Report generated on 29-02-2024, 23:23</p>
+                                </div>
+                                <div class="report-download-link">
+                                    <img src="./assets/images/download-icon.svg" alt="download icon" />
+                                    <a href="#" class="download-link">Download this report</a>
+                                    <img src="./assets/images/pdf-icon.svg" alt="PDF icon" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-block about-title">
+                            <img src="./assets/images/about-company-icon.svg" alt="about company icon" />
+                            <h3 class="h3">About Company</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="our-beliefs">
+                            <div class="image-block">
+                                <img src="./assets/images/Our-Beliefs.png" alt="our beliefs" />
+                            </div>
+                            <div class="content-block">
+                                <h4 class="h4">Our Beliefs</h4>
+                                <p class="p">
+                                    Our philosophy at My State Energy revolves around delivering both ecological and economic benefits to our clients. We believe that going green should also mean saving green, offering energy solutions that significantly reduce utility costs. Every product we provide is an investment in sustainable living and long-term financial savings.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="our-team">
+                            <div class="image-block">
+                                <img src="./assets/images/our-team.svg" alt="state energy team" />
+                            </div>
+                            <div class="content-block">
+                                <h4 class="h4">Our Team</h4>
+                                <p class="p">
+                                    Our team at My State Energy is more than a group of professionals; we are a family dedicated to exceptional customer service. Each member brings a unique blend of expertise and a deep commitment to understanding and fulfilling the individual needs of every customer. We pride ourselves on being attentive, responsive, and genuinely caring, ensuring that each client's experience with us is as outstanding as the solutions we provide.
+                                </p>
+                            </div>
+                            <div class="blue-bg-box">
+                                <div class="url-block">
+                                    <img src="./assets/images/url-icon.svg" alt="url icon" />
+                                    <div class="url">
+                                        <p class="p website">Website</p>
+                                        <p class="p state-energy">www.mystateenergy.com</p>
+                                    </div>
+                                </div>
+                                <div class="visit-now-block">
+                                    <a href="https://mystateenergy.com/" target="_blank" class="visit-now">Visit Now</a>
+                                    <img src="./assets/images/right-arrow.svg" alt="link right arrow" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tabs-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Tabs Header -->
+                        <div class="tabs-header">
+                            <div class="tab tablinks active" onclick="openTab(event, 'yoursystem')">
+                                <div class="icon">
+                                    <img src="./assets/images/your-system-icon.svg" alt="your system">
+                                </div>
+                                <div class="content">
+                                    <span class="small-14-text">Estimate</span>
+                                    <h4 class="h4 with-line">Your System</h4>
+                                </div>
+                            </div>
+                            <div class="tab tablinks" onclick="openTab(event, 'monthlypayments')">
+                                <div class="icon">
+                                    <img src="./assets/images/estimated-monthly-payments-icon.png" alt="estimated monthly payments">
+                                </div>
+                                <div class="content">
+                                    <span class="small-14-text">Calculation</span>
+                                    <h4 class="h4 with-line">Estimated Monthly Payments</h4>
+                                </div>
+                            </div>
+                            <div class="tab tablinks" onclick="openTab(event, 'utilitygraphs')">
+                                <div class="icon">
+                                    <img src="./assets/images/utility-graphs-icons.svg" alt="utility graphs">
+                                </div>
+                                <div class="content">
+                                    <span class="small-14-text">Prediction</span>
+                                    <h4 class="h4">Utility Graphs</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tab 1 Content -->
+                        <div id="yoursystem" class="tabcontent active">
+                            <div class="light-border-box">
+                                <div class="overview-block">
+                                    <div class="left-side">
+                                        <img src="./assets/images/overview-icon.svg" alt="overview-icon" />
+                                        <div>
+                                            <h3 class="h3">Overview</h3>
+                                            <p class="p">My State Energy revolves</p>
+                                        </div>
+                                    </div>
+                                    <div class="right-side">
+                                        <div class="system-size">
+                                            <h2 class="h2">3.95 <span>KW</span></h2>
+                                            <p class="p small">System Size</p>
+                                        </div>
+                                        <div class="number-of-panels">
+                                            <h2 class="h2">10 <span>Modules</span></h2>
+                                            <p class="p small">Number of Panels</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="light-border-box p-32">
+                                        <div class="statistics-block">
+                                            <h3 class="h3">Statistics</h3>
+                                            <div class="values-block">
+                                                <div class="value">
+                                                    <img src="./assets/images/energy-generated-icon.svg" alt="energy generated icon" />
+                                                    <h2 class="h2">37%</h2>
+                                                </div>
+                                                <div class="description">
+                                                    <p class="p">Of your energy generated from solar.</p>
+                                                </div>
+                                            </div>
+                                            <div class="values-block">
+                                                <div class="value">
+                                                    <img src="./assets/images/annual-production-icon.svg" alt="annual production icon" />
+                                                    <div>
+                                                        <h2 class="h2 with-KW">7,201<span>KW</span></h2>
+                                                    </div>
+                                                </div>
+                                                <div class="description">
+                                                    <p class="p">Of your energy generated from solar.</p>
+                                                </div>
+                                            </div>
+                                            <div class="blue-bg-box">
+                                                <img src="./assets/images/info-icon.svg" alt="information icon" />
+                                                <p class="p">Based on yearly avg. consumption of <span>19,160 kWh</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="light-border-box">
+                                        <div class="components-block">
+                                            <div class="title-block">
+                                                <h3 class="h3">Components</h3>
+                                                <p class="p">(Your installation uses the latest in solar technology)</p>
+                                            </div>
+                                            <div class="schedule-a-call-block">
+                                                <div class="content-block">
+                                                    <img src="./assets/images/solar-panel-icon.svg" alt="Solar Panel Icon" />
+                                                    <div>
+                                                        <h4 class="h4">Your System</h4>
+                                                        <p class="p">10 Premium 395W</p>
+                                                    </div>
+                                                </div>
+                                                <div class="btn-block">
+                                                    <a href="https://mystateenergy.com/" target="_blank" class="visit-now">Schedule Call</a>
+                                                    <img src="./assets/images/right-arrow.svg" alt="link right arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="schedule-a-call-block">
+                                                <div class="content-block">
+                                                    <img src="./assets/images/inverters-icon.svg" alt="Inverters Icon" />
+                                                    <div>
+                                                        <h4 class="h4">Inverters</h4>
+                                                        <p class="p">10 IQ8+ Microinverters</p>
+                                                    </div>
+                                                </div>
+                                                <div class="btn-block">
+                                                    <a href="https://mystateenergy.com/" target="_blank" class="visit-now">Schedule Call</a>
+                                                    <img src="./assets/images/right-arrow.svg" alt="link right arrow" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tab 2 Content -->
+                        <div id="monthlypayments" class="tabcontent">
+                          <div class="row">
+                              <div class="col-lg-5">
+                                  <div class="image-block">
+                                    <img src="./assets/images/EstimatedMonthyPayments.png" alt="Estimated Monthly Payments" />
+                                  </div>
+                              </div>
+                              <div class="col-lg-7">
+                                  <div class="light-border-box">
+                                      <div class="monthly-payments-and-adjust-payment-block">
+                                        <div class="values-block">
+                                            <h2 class="h2">$291</h2>
+                                            <p class="p">First 18 monthly<br/> payments</p>
+                                        </div>
+                                        <div class="values-block">
+                                            <h2 class="h2">$266</h2>
+                                            <p class="p">New adjusted payment<br/> beginning at month18</p>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="light-border-box">
+                                      <div class="what-does-this-mean">
+                                        <h2 class="h2">What does this mean?</h2>
+                                        <div class="voluntary-payment-table">
+                                            <div class="t-row">
+                                                <div class="table-column t-head">
+                                                    <p class="p">If your voluntary payment is <br/><span style="opacity: 0;">s</span></p>
+                                                </div>
+                                                <div class="table-column voluntary-payment">
+                                                    <div class="payment">
+                                                        <p class="payment-number font-24"><span>$</span> 0</p>
+                                                    </div>
+                                                    <div class="arrow">
+                                                        <img src="./assets/images/right-arrow-big.svg" alt="right arrow" />
+                                                    </div>
+                                                    <div class="percentage">
+                                                        <p class="p font-24">(0%)</p>
+                                                    </div>
+                                                </div>
+                                                <div class="table-column voluntary-payment">
+                                                    <div class="payment">
+                                                        <p class="payment-number font-24"><span>$</span> 7,227</p>
+                                                    </div>
+                                                    <div class="arrow">
+                                                        <img src="./assets/images/right-arrow-big.svg" alt="right arrow" />
+                                                    </div>
+                                                    <div class="percentage">
+                                                        <p class="p font-24">(0%)</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="t-row">
+                                                <div class="table-column t-head">
+                                                    <p class="p">By month 18, your remaining payments will be approximately</p>
+                                                </div>
+                                                <div class="table-column">
+                                                    <p class="p font-24 text-center">$266</p>
+                                                </div>
+                                                <div class="table-column">
+                                                    <p class="p font-24 text-center">$291</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="note">
+                                            <p class="p">
+                                                <span class="red-text">*</span> The monthly payment showed on this proposal may not be an exact representation of the the actual agreement
+                                            </p>
+                                            <p class="p">
+                                                <span class="red-text">**</span> Not everyone is eligible for credit, incentives, rebates or can fully use them. Please consult your tax or legal professional for more information
+                                            </p>
+                                        </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                        <!-- Tab 3 Content -->
+                        <div id="utilitygraphs" class="tabcontent">
+                            <div class="light-border-box">
+                                <div class="yearly-analysis-block">
+                                    <div class="title-block">
+                                        <h3 class="h3">25 Year Analysis</h3>
+                                        <div class="blue-bg-box">
+                                            <img src="./assets/images/info-icon.svg" alt="information icon" />
+                                            <p class="p">Based on yearly avg. consumption of <span>19,160 kWh</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-7">
+                                            <div class="chart-block">
+                                                <div id="">
+                                                    <img src="./assets/images/graph.svg" alt="">
+                                                </div>
+                                                <div class="before-after-block">
+                                                    <div class="values-block">
+                                                        <h3 class="h3">
+                                                            $ -55,920
+                                                        </h3>
+                                                        <p class="p">Est. 25 Year Saving</p>
+                                                    </div>
+                                                    <div class="table">
+                                                        <table class="before-after-table">
+                                                            <tr>
+                                                                <td></td>
+                                                                <td><span class="label">Before</span></td>
+                                                                <td><span class="label">After</span></td>
+                                                             </tr>
+                                                             <tr>
+                                                                <td><span class="label">Utitlity Bill</span></td>
+                                                                <td><span class="value">$95</span></td>
+                                                                <td><span class="value">$59</span></td>
+                                                             </tr>
+                                                             <tr>
+                                                                <td><span class="label">Insurance</span></td>
+                                                                <td><span class="value">$65</span></td>
+                                                                <td><span class="value">$52</span></td>
+                                                             </tr>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="pricing-widgets">
+                                                <img src="./assets/images/program-amount-icon.svg" alt="Program Amount" />
+                                                <div class="content-block">
+                                                    <p class="p lable">Program Amount</p>
+                                                    <h3 class="h3 value">$42,127</h3>
+                                                </div>
+                                            </div>
+                                            <div class="pricing-widgets">
+                                                <img src="./assets/images/Potential-incentives-icon.svg" alt="Potential Incentives" />
+                                                <div class="content-block">
+                                                    <p class="p lable">Potential Incentives</p>
+                                                    <h3 class="h3 value">$5,782</h3>
+                                                </div>
+                                            </div>
+                                            <div class="pricing-widgets">
+                                                <img src="./assets/images/Final-Cost-icon.svg" alt="Final Cost" />
+                                                <div class="content-block">
+                                                    <p class="p lable">Final Cost</p>
+                                                    <h3 class="h3 value">$42,127</h3>
+                                                </div>
+                                            </div>
+                                            <div class="pricing-widgets note">
+                                                <p class="p">
+                                                    <span class="red-text">*</span> 
+                                                    Current Loan purchase offering is based on recent credit and loan rates. Rate and terms are subject to change.
+                                                </p>
+                                                <p class="p">
+                                                    The fixed Annual Percentage Rate is 1.49% for 25 years
+                                                </p>
+                                                <p class="p">
+                                                    Average over 30 years.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="go-solar">
+            <div class="container">
+                <div class="row go-solar-row">
+                    <div class="col-lg-6">
+                        <h2 class="h2 title">Why Go Solar?</h2>
+                        <h4 class="h4 pre-title">Invest in the environment</h4>
+                        <p class="p pre-desc">The amount of clean energy you generate each year compared to conventional
+                            utilities would be equivalent to:</p>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-4">
+                        <img src="./assets/images/go-solar.png" alt="go-solar" class="go-solar-img" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="go-solar-card">
+                            <div class="card-icon-wrap">
+                                <img src="./assets/images/passenger-car-icon.svg" alt="passenger-car-icon" />
+                            </div>
+                            <p class="card-text">Taking <span class="highlight-text">1 Passenger cars</span> off the
+                                road per year</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="go-solar-card">
+                            <div class="card-icon-wrap">
+                                <img src="./assets/images/seedling-tree-icon.svg" alt="seedling-tree-icon" />
+                            </div>
+                            <p class="card-text">Growing <span class="highlight-text">4,567 tree Seedlings</span> for 10
+                                years </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="go-solar-card">
+                            <div class="card-icon-wrap">
+                                <img src="./assets/images/pounds-coals-icons.svg" alt="pounds-coals-icons" />
+                            </div>
+                            <p class="card-text"><span class="highlight-text">15,456 pounds of coal</span> saved</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="invest-home-wrapper">
+                            <h4 class="h4 invest-home-title">Invest in your home</h4>
+                            <p class="p h4 invest-home-pre-title">According to a study by Berkeley National Labs, a
+                                solar installation can improve a <span class="highlight-text">home's market value by
+                                    20%*</span></p>
+                            <div class="btn-block">
+                                <a href="https://mystateenergy.com/" target="_blank" class="visit-now">Schedule Call</a>
+                                <img src="./assets/images/right-arrow.svg" alt="link right arrow" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product-information-section"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="product-image">
+                            <img src="./assets/images/Doors-image.png" alt="Doors image" />
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="product-information">
+                            <div class="product-category">
+                                <img src="./assets/images/doors0icon.svg" alt="Door Icon" />
+                                <h3 class="h3 product-name">Doors</h3>
+                                <div class="seperater"></div>
+                                <p class="p product-tag">Style Meets Efficiency.</p>
+                            </div>
+                        </div>
+                        <div class="system-info-heading">
+                            <p class="p system-info">System Information</p>
+                        </div>
+                        <div class="product-details">
+                            <div class="header">
+                                <img src="./assets/images/door-icon.svg" alt="Door Icon" />
+                                <p class="p name">Door 1</p>
+                                <img src="./assets/images/info-circle.svg" alt="tooltip icon" />
+                            </div>
+                            <div class="details">
+                                <div class="info-block size">
+                                    <span class="lable">Size (h x w)</span>
+                                    <p class="p detail">200 x 400</p>
+                                </div>
+                                <div class="info-block type">
+                                    <span class="lable">Type</span>
+                                    <p class="p detail">Single</p>
+                                </div>
+                                <div class="info-block framecolor">
+                                    <span class="lable">Frame Color</span>
+                                    <p class="p detail">Black</p>
+                                </div>
+                                <div class="info-block tintcolor">
+                                    <span class="lable">Tint Color</span>
+                                    <p class="p detail">Black</p>
+                                </div>
+                                <div class="info-block quantity">
+                                    <span class="lable">Quantity</span>
+                                    <p class="p detail">1</p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="product-details">
+                            <div class="header">
+                                <img src="./assets/images/door-icon.svg" alt="Door Icon" />
+                                <p class="p name">Door 1</p>
+                                <img src="./assets/images/info-circle.svg" alt="tooltip icon" />
+                            </div>
+                            <div class="details">
+                                <div class="info-block size">
+                                    <span class="lable">Size (h x w)</span>
+                                    <p class="p detail">200 x 400</p>
+                                </div>
+                                <div class="info-block type">
+                                    <span class="lable">Type</span>
+                                    <p class="p detail">Single</p>
+                                </div>
+                                <div class="info-block framecolor">
+                                    <span class="lable">Frame Color</span>
+                                    <p class="p detail">Black</p>
+                                </div>
+                                <div class="info-block tintcolor">
+                                    <span class="lable">Tint Color</span>
+                                    <p class="p detail">Black</p>
+                                </div>
+                                <div class="info-block quantity">
+                                    <span class="lable">Quantity</span>
+                                    <p class="p detail">1</p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="product-details">
+                            <div class="header">
+                                <img src="./assets/images/door-icon.svg" alt="Door Icon" />
+                                <p class="p name">Door 1</p>
+                                <img src="./assets/images/info-circle.svg" alt="tooltip icon" />
+                            </div>
+                            <div class="details">
+                                <div class="info-block size">
+                                    <span class="lable">Size (h x w)</span>
+                                    <p class="p detail">200 x 400</p>
+                                </div>
+                                <div class="info-block type">
+                                    <span class="lable">Type</span>
+                                    <p class="p detail">Single</p>
+                                </div>
+                                <div class="info-block framecolor">
+                                    <span class="lable">Frame Color</span>
+                                    <p class="p detail">Black</p>
+                                </div>
+                                <div class="info-block tintcolor">
+                                    <span class="lable">Tint Color</span>
+                                    <p class="p detail">Black</p>
+                                </div>
+                                <div class="info-block quantity">
+                                    <span class="lable">Quantity</span>
+                                    <p class="p detail">1</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="purchase-doors">
+            <div class="container">
+                <div class="row purchase-doors-row">
+                    <div class="col-lg-6">
+                        <h2 class="h2 title">Why Purchase New Doors & Windows ?</h2>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-4">
+                        <img src="./assets/images/purchase-doors-img.png" alt="purchase-doors-img" class="purchase-doors-img" />
+                    </div>
+                </div>
+                <div class="row product-cards-row">
+                    <div class="col-lg-6">
+                        <div class="product-card">
+                            <div class="prodcut-card-icon">
+                                <img src="./assets/images/energy-effiency-cion.svg" alt="energy-effiency-cion" />
+                            </div>
+                            <h4 class="h4 large">Enhanced Energy Efficiency</h4>
+                            <p class="p prodcut-card">Upgrading to new doors and windows significantly improves your home's energy efficiency. They reduce heat loss during winter and heat gain during summer, leading to lower energy bills and a more comfortable indoor climate.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="product-card">
+                            <div class="prodcut-card-icon">
+                                <img src="./assets/images/property-value-icon.svg" alt="property-value-icon" />
+                            </div>
+                            <h4 class="h4 large">Increased Property Value</h4>
+                            <p class="p prodcut-card">Installing new doors and windows is a surefire way to increase your property's value. These upgrades are a desirable feature for homebuyers, offering both aesthetic appeal and practical benefits in energy efficiency and security.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="product-card">
+                            <div class="prodcut-card-icon">
+                                <img src="./assets/images/home-security-icon.svg" alt="home-security-icon" />
+                            </div>
+                            <h4 class="h4 large">Improved Home Security</h4>
+                            <p class="p prodcut-card">Modern doors and windows come with advanced security features that protect your home against break-ins and intrusions. Stronger materials and improved locking mechanisms provide peace of mind and enhance the safety of your household.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="product-card">
+                            <div class="prodcut-card-icon">
+                                <img src="./assets/images/noise-reduction-icon.svg" alt="noise-reduction-icon" />
+                            </div>
+                            <h4 class="h4 large">Noise Reduction</h4>
+                            <p class="p prodcut-card">High-quality doors and windows offer superior noise insulation, creating a quieter and more peaceful home environment. They are especially beneficial in urban areas or neighborhoods with high traffic, significantly reducing outside noise intrusion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="order-summary-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2 class="h2">Order Summary</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="customer-general-information">
+                            <h4 class="h4 heading">General Information</h4>
+                            <div class="customer-info">
+                                <span class="lable">Customer Name</span>
+                                <p class="p customer-name">Daniel Valiente</p>
+                            </div>
+                            <div class="customer-info">
+                                <span class="lable">Email</span>
+                                <p class="p customer-name">talhadn+becky@gmail.com</p>
+                            </div>
+                            <div class="customer-info">
+                                <span class="lable">Phone No.</span>
+                                <p class="p customer-name">7864612100</p>
+                            </div>
+                            <div class="customer-info">
+                                <span class="lable">Address</span>
+                                <p class="p customer-name">10765 SW 141ST LN MIAMI</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="order-details">
+                            <div class="title-block">
+                                <img src="./assets/images/order-details-icon.svg" alt="order details icon" />
+                                <div class="text-block">
+                                    <h3 class="h3">Order Details</h3>
+                                    <p class="p">Your complete items details</p>
+                                </div>
+                            </div>
+                            <div class="product-details">
+                                <div class="header">
+                                    <img src="./assets/images/Solar-System-icon.svg" alt="Solar System" />
+                                    <p class="p name">Solar System</p>
+                                    <img src="./assets/images/info-circle.svg" alt="tooltip icon" />
+                                </div>
+                                <div class="details">
+                                    <div class="info-block size">
+                                        <span class="lable">System Size</span>
+                                        <p class="p detail">3 KW</p>
+                                    </div>
+                                    <div class="info-block type">
+                                        <span class="lable">Panels</span>
+                                        <p class="p detail">10</p>
+                                    </div>
+                                    <div class="info-block framecolor">
+                                        <span class="lable">Utility Offset</span>
+                                        <p class="p detail">37%</p>
+                                    </div>
+                                    <div class="info-block tintcolor">
+                                        <span class="lable">Est. Annual Prod.</span>
+                                        <p class="p detail">7,208 kWh</p>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="product-details">
+                                <div class="header">
+                                    <img src="./assets/images/door-icon.svg" alt="Door" />
+                                    <p class="p name">Doors</p>
+                                    <img src="./assets/images/info-circle.svg" alt="tooltip icon" />
+                                </div>
+                                <div class="details">
+                                    <div class="info-block size">
+                                        <span class="lable">Size (h x w)</span>
+                                        <p class="p detail">200 x 400</p>
+                                    </div>
+                                    <div class="info-block type">
+                                        <span class="lable">Type</span>
+                                        <p class="p detail">Single</p>
+                                    </div>
+                                    <div class="info-block framecolor">
+                                        <span class="lable">Frame Color</span>
+                                        <p class="p detail">Black</p>
+                                    </div>
+                                    <div class="info-block tintcolor">
+                                        <span class="lable">Tint Color</span>
+                                        <p class="p detail">Black</p>
+                                    </div>
+                                    <div class="info-block quantity">
+                                        <span class="lable">Quantity</span>
+                                        <p class="p detail">1</p>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div class="info-block size">
+                                        <span class="lable">Size (h x w)</span>
+                                        <p class="p detail">200 x 800</p>
+                                    </div>
+                                    <div class="info-block type">
+                                        <span class="lable">Type</span>
+                                        <p class="p detail">Double</p>
+                                    </div>
+                                    <div class="info-block framecolor">
+                                        <span class="lable">Frame Color</span>
+                                        <p class="p detail">Black</p>
+                                    </div>
+                                    <div class="info-block tintcolor">
+                                        <span class="lable">Tint Color</span>
+                                        <p class="p detail">Black</p>
+                                    </div>
+                                    <div class="info-block quantity">
+                                        <span class="lable">Quantity</span>
+                                        <p class="p detail">1</p>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div class="info-block size">
+                                        <span class="lable">Size (h x w)</span>
+                                        <p class="p detail">200 x 1600</p>
+                                    </div>
+                                    <div class="info-block type">
+                                        <span class="lable">Type</span>
+                                        <p class="p detail">Sliding</p>
+                                    </div>
+                                    <div class="info-block framecolor">
+                                        <span class="lable">Frame Color</span>
+                                        <p class="p detail">Black</p>
+                                    </div>
+                                    <div class="info-block tintcolor">
+                                        <span class="lable">Tint Color</span>
+                                        <p class="p detail">Black</p>
+                                    </div>
+                                    <div class="info-block quantity">
+                                        <span class="lable">Quantity</span>
+                                        <p class="p detail">1</p>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="product-details">
+                                <div class="header">
+                                    <img src="./assets/images/Permits-icon.svg" alt="Permit" />
+                                    <p class="p name">Permits & Filings</p>
+                                    <img src="./assets/images/info-circle.svg" alt="tooltip icon" />
+                                </div>
+                                <div class="details">
+                                    <div class="info-block size">
+                                        <span class="lable">Type</span>
+                                        <p class="p detail">All Necessary</p>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="blue-bg-box total-estimated-bill">
+                                <div class="estimate-block">
+                                    <img src="./assets/images/Estimated-bill-icon.svg" alt="Estimated Monthli Bill Icon" />
+                                    <p class="p estimated-bill-lable">New Estimated<br/> Monthly Bill</p>
+                                </div>
+                                <h2 class="h2 estimated-bill-value">$291</h4>
+                                <div class="seperator"></div>
+                                <div class="total-estimated-price">
+                                    <p class="p lable">Total Estimated Price</p>
+                                    <p class="p sub-info">Variable based on current rate</p>
+                                </div>
+                                <h2 class="h2 estimated-bill-value">$42,127</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="next-steps">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h4 class="h4 title">Next Steps</h4>
+                    </div>
+                </div>
+                
+            <div class="steps-card-wrapper">
+                <div class="row steps-card-row">
+                    <div class="col-lg-4">
+                        <div class="light-border-box step-card">
+                            <div class="step-card-icon">
+                                <img src="./assets/images/step1-icon.svg" alt="step1-icon" />
+                            </div>
+                            <h5 class="step-title">STEP <span class="green">01</span></h5>
+                            <p class="p step-desc">Review and sign proposal</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="light-border-box step-card">
+                            <div class="step-card-icon">
+                                <img src="./assets/images/step2-icon.svg" alt="step2-icon" />
+                            </div>
+                            <h5 class="step-title">STEP <span class="green">02</span></h5>
+                            <p class="p step-desc">We review your site & create engineering specific to your home</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="light-border-box step-card">
+                            <div class="step-card-icon">
+                                <img src="./assets/images/step3-icon.svg" alt="step3-icon" />
+                            </div>
+                            <h5 class="step-title">STEP <span class="green">03</span></h5>
+                            <p class="p step-desc">We get utility and permit approvals</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="light-border-box step-card">
+                            <div class="step-card-icon">
+                                <img src="./assets/images/step4-icon.svg" alt="step4-icon" />
+                            </div>
+                            <h5 class="step-title">STEP <span class="green">04</span></h5>
+                            <p class="p step-desc">We install and adjust the system</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="light-border-box step-card">
+                            <div class="step-card-icon">
+                                <img src="./assets/images/step5-icon.svg" alt="step5-icon" />
+                            </div>
+                            <h5 class="step-title">STEP <span class="green">05</span></h5>
+                            <p class="p step-desc">Savings start rolling in</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="light-border-box step-card">
+                            <div class="step-card-icon">
+                                <img src="./assets/images/step6-icon.svg" alt="step6-icon" />
+                            </div>
+                            <h5 class="step-title">STEP <span class="green">06</span></h5>
+                            <p class="p step-desc">Refer friends and family</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <footer class="footer-cta">
+            <div class="container">
+                <div class="footer-cta-block">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="footer-rightside">
+                            <div class="footer-logo-wrap">
+                                <img src="./assets/images/footer-cta-logo.svg" alt="footer-cta-logo" />
+                            </div>
+                            <div class="footer-text-wrap">
+                                <h2 class="h2 title">Why Go Solar?</h2>
+                                <p class="p pre-title">The amount of clean energy you generate each year compared to conventional utilities would be equivalent to:</p>
+                            </div>
+                            <div class="btn-wrap">
+                            <a href="#" class="work-together">Let’s Work Together</a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-lg-5">
+                                <img src="./assets/images/footer-cta-img.png" alt="footer-cta-img" class="footer-img" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                    <div class="reserved-rights-wrap">
+                        <p class="p reserved-rights">All Rights Reserved © LLC 2024 State Energy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/tabs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="./js/chart.js"></script>
+    <script src="./js/API.js"></script>
+</body>
+</html>

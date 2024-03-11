@@ -1,0 +1,64 @@
+.about-section{
+    .title-block{
+        &.about-title{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+    }
+    .our-beliefs{
+        margin-top: 2.4rem;
+        padding-right: 1.6rem;
+        .image-block{
+            margin-bottom: 2rem;
+        }
+        .content-block{
+            .h4{
+                margin-bottom: .6rem;
+            }
+        }
+    }
+    .our-team{
+        margin-top: 2.4rem;
+        .image-block{
+            margin-bottom: 2rem;
+        }
+        .content-block{
+            margin-bottom: 2rem;
+            .h4{
+                margin-bottom: .6rem;
+            }
+        }
+        .blue-bg-box{
+            .url-block{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                .url{
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    .website{
+                        padding-right: 8px;
+                        border-right: 1.5px solid var(--light-border-color);
+                        color: var(--black-color);
+                        font-size: .8rem;
+                        line-height: 100%;
+                        font-weight: 500;
+                    }
+                    .state-energy{
+                        color: var(--primary-blue-color);
+                        font-size: .8rem;
+                        line-height: 100%;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .visit-now-block{
+                display: flex;
+                align-items: flex-end;
+                gap: 2px;
+            }
+        }
+    }
+}
